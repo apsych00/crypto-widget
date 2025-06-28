@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CryptoPanic Widget</title>
+  <meta charset="UTF-8">
+  <title>CryptoPanic Widgets</title>
 </head>
 <body>
+
+  <h2>🔥 Latest Crypto News (Recent)</h2>
+  <a href="https://cryptopanic.com/" target="_blank"
+     data-news_feed="recent"
+     data-posts_limit="10"
+     data-bg_color="#FFFFFF"
+     data_text_color="#333333"
+     data-link_color="#0091C2"
+     data-header_bg_color="#1E1E1E"
+     data-header_text_color="#FFFFFF"
+     class="CryptoPanicWidget">
+     Recent News
+  </a>
+
+  <hr />
+
+  <h2>🚀 Trending Crypto News</h2>
   <a href="https://cryptopanic.com/" target="_blank" 
-     data-news_feed="recent" 
+     data-news_feed="trending" 
+     data-posts_limit="10" 
      data-bg_color="#FFFFFF" 
      data_text_color="#333333" 
      data-link_color="#0091C2" 
      data-header_bg_color="#30343B" 
      data-header_text_color="#FFFFFF" 
-     data-posts_limit="10" 
      class="CryptoPanicWidget">
-     Latest News
+     Trending News
   </a>
+
   <script src="https://static.cryptopanic.com/static/js/widgets.min.js"></script>
+
 </body>
 </html>
